@@ -6,9 +6,9 @@
 var isAnagram = function(s, t) {
     newS = s.split("").sort();
     newT = t.split("").sort();
-    console.log(newS, newT);
+    // O(n*log(n))
+    return newS.join("") === newT.join("");
  };
 
 
- isAnagram("nagaram", "anagram")
 
