@@ -9,6 +9,3 @@ var isAnagram = function(s, t) {
     // O(n*log(n))
     return newS.join("") === newT.join("");
  };
-
-
-
