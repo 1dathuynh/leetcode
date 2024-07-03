@@ -6,6 +6,9 @@
 var isAnagram = function(s, t) {
     newS = s.split("").sort();
     newT = t.split("").sort();
-    // O(n*log(n))
+    // tao hai mang moi de sort
+
     return newS.join("") === newT.join("");
+
+    // O(n*log(n))
  };
